@@ -12,8 +12,8 @@ importers:
         specifier: ^3.2.6
         version: 3.2.6
       marked:
-        specifier: ^15.0.12
-        version: 15.0.12
+        specifier: ^16.0.0
+        version: 16.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.31.0
@@ -56,10 +56,10 @@ importers:
         version: 0.16.22
       marked-highlight:
         specifier: ^2.2.2
-        version: 2.2.2(marked@15.0.12)
+        version: 2.2.2(marked@16.0.0)
       marked-katex-extension:
         specifier: ^5.1.5
-        version: 5.1.5(katex@0.16.22)(marked@15.0.12)
+        version: 5.1.5(katex@0.16.22)(marked@16.0.0)
       monaco-editor:
         specifier: ^0.52.2
         version: 0.52.2
@@ -1452,9 +1452,9 @@ packages:
       katex: '>=0.16 <0.17'
       marked: '>=4 <17'
 
-  marked@15.0.12:
-    resolution: {integrity: sha512-8dD6FusOQSrpv9Z1rdNMdlSgQOIP880DHqnohobOmYLElGEqAL/JvxvuxZO16r4HtjTlfPRDC1hbvxC9dPN2nA==}
-    engines: {node: '>= 18'}
+  marked@16.0.0:
+    resolution: {integrity: sha512-MUKMXDjsD/eptB7GPzxo4xcnLS6oo7/RHimUMHEDRhUooPwmN9BEpMl7AEOJv3bmso169wHI2wUF9VQgL7zfmA==}
+    engines: {node: '>= 20'}
     hasBin: true
 
   merge2@1.4.1:
@@ -3280,16 +3280,16 @@ snapshots:
     dependencies:
       semver: 7.7.2
 
-  marked-highlight@2.2.2(marked@15.0.12):
+  marked-highlight@2.2.2(marked@16.0.0):
     dependencies:
-      marked: 15.0.12
+      marked: 16.0.0
 
-  marked-katex-extension@5.1.5(katex@0.16.22)(marked@15.0.12):
+  marked-katex-extension@5.1.5(katex@0.16.22)(marked@16.0.0):
     dependencies:
       katex: 0.16.22
-      marked: 15.0.12
+      marked: 16.0.0
 
-  marked@15.0.12: {}
+  marked@16.0.0: {}
 
   merge2@1.4.1: {}
 
