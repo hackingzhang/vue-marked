@@ -22,7 +22,15 @@
   ],
   "author": "hackingzhang@outlook.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackingzhang/vue-marked.git"
+  },
+  "bugs": "https://github.com/hackingzhang/vue-marked/issues",
   "packageManager": "pnpm@10.12.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "dompurify": "^3.2.6",
     "marked": "^15.0.12"
