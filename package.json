@@ -1,6 +1,6 @@
 {
   "name": "@hackingzhang/vue-marked",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A markdown viewer for Vue3",
   "type": "module",
   "main": "lib/vue-marked.umd.js",
